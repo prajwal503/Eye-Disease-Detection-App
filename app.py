@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load your trained model
-model = tf.keras.models.load_model('C:/Eye Disease Detection Project/eyes.h5')  # Adjust the path as needed
+model = tf.keras.models.load_model('C:\Eye Disease Detection Project\app\eyes.h5')  # Adjust the path as needed
 
 # Get the model's input shape
 input_shape = model.input_shape[1:3]
