@@ -65,11 +65,12 @@ def sidebar_content():
         **Normal**: No detected abnormality in the eye.
         """
     )
-
+    url = "https://www.linkedin.com/in/prajwal-gupta-260617144/"
     st.sidebar.markdown("---")
     st.sidebar.header("Created by:")
     st.sidebar.subheader("Prajwal Gupta ❤️")
     st.sidebar.write("Email: 503prajwal@gmail.com")
+    st.sidebar.write("LinkedIn: [Prajwal Gupta](%s)" % url)
 
 
 # Streamlit app interface
